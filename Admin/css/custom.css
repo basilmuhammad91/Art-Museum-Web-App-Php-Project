@@ -1,0 +1,471 @@
+/* your styles go here */
+
+
+.pageLengthBtn {
+    color: white;
+    background-color: #039be5;
+    border-color: #039be5;
+    font-weight: 400;
+    border: 1px solid transparent;
+    padding: 0.45rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: 0;
+}
+
+    .pageLengthBtn:hover {
+        background-color: #0288D1;
+    }
+
+.dt-button-collection {
+    margin-top: 10px !important;
+}
+
+    .dt-button-collection > .button-page-length {
+        background-color: #039be5 !important;
+        color: white !important;
+        border: 0px;
+    }
+
+    .dt-button-collection > .active {
+        background-color: #3172a5 !important;
+        color: white !important;
+        border: 0px;
+    }
+
+
+
+
+.material-div {
+    background-color: #f4f7fa !important;
+    padding: 10px !important;
+}
+
+.material-div:hover {
+    color: white !important;
+    background-color: #039be5d6 !important;
+}
+
+    .material-div:hover > .students-lbl {
+        color: white !important;
+    }
+
+    .material-div:hover > a > .student-text > .material-folder-h1 {
+        color: white !important;
+    }
+
+
+h4 {
+    margin:5px 0px;
+}
+
+.notification-style {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+}
+
+.form-color {
+    background-color: #efefef;
+}
+
+a:focus, a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.card {
+    -webkit-transition: all .2s ease-in-out 0s;
+    transition: all .2s ease-in-out 0s;
+}
+    .card:hover {
+        background-color: #eef3fb;
+        -webkit-transition: all .2s ease-in-out 0s;
+        transition: all .2s ease-in-out 0s;
+    }
+
+/* Start School Page CSS*/
+.mid-box {
+    text-align: center !important;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+    .mid-box .btns {
+        padding: 20px 0px;
+    }
+
+        .mid-box .btns a {
+            color: #fff !important;
+        }
+
+
+        .mid-box .LogoDiv img {
+            margin: 0 auto;
+            max-height: 150px;
+        }
+
+    .mid-box .LogoDiv {
+        height: 185px;
+        width: 250px;
+        white-space: nowrap;
+        text-align: center;
+        vertical-align: middle;
+        min-height: 209px;
+        display: table-cell;
+    }
+
+        .mid-box .LogoDiv :before,
+        .mid-box .LogoDiv_before {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+
+.no-sorting:before, .no-sorting:after {
+    content: "" !important;
+}
+
+.marginTop
+{
+    margin-top:10px;
+}
+
+.paddingDiv
+{
+    padding:10px;
+}
+
+
+.search-form .bg {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 4px;
+    border: 1px solid #e4e4e4;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+    .search-form .bg .select2-selection {
+        border: 1px solid #ccc;
+        outline: 0;
+        border-radius: 0px;
+    }
+
+.search-btn {
+    height: 34px;
+}
+
+
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    /*background-color: #eee;*/
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 5px #e8e8e8;
+}
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 12px;
+    }
+
+        ul.breadcrumb li + li:before {
+            padding: 8px;
+            color: black;
+            content: "/\00a0";
+        }
+
+        ul.breadcrumb li a {
+            color: #0275d8;
+            text-decoration: none;
+        }
+
+            ul.breadcrumb li a:hover {
+                color: #01447e;
+                text-decoration: underline;
+            }
+
+
+.custom-box {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.hidden
+{
+    display:none;
+}
+
+
+.documentRowShadow {
+    box-shadow: 0px 3px 3px #e8e8e8;
+}
+
+.documentBtn {
+    background-color: #eeeeee;
+    padding: 3px 6px 0px 6px;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    margin: 0px 1px 0px 0px;
+    cursor:pointer;
+}
+
+
+
+
+/* End School Page CSS*/
+
+
+
+
+
+/* Asma's CSS for attendance*/
+
+.markattend,
+.markattend1,
+.markattend2,
+.markattend3,
+.markattend4 {
+    display: none;
+}
+
+.attend {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 2px solid #777;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #777;
+}
+
+.markattend:checked ~ .attend {
+    background: #569864;
+    color: #fff;
+}
+
+.attend1 {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 2px solid #777;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #777;
+}
+
+.markattend1:checked ~ .attend1 {
+    background: #e6905c;
+    color: #fff;
+}
+
+.attend2 {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 2px solid #777;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #777;
+}
+
+.markattend2:checked ~ .attend2 {
+    background: #ef4c4c;
+    color: #fff;
+}
+
+.attend3 {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 2px solid #777;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #777;
+}
+
+
+.markattend3:checked ~ .attend3 {
+    background: #debf65;
+    color: #fff;
+}
+
+
+.attend4 {
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 2px solid #777;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #777;
+}
+
+.markattend4:checked ~ .attend4 {
+    background: #566bbb;
+    color: #fff;
+}
+
+label.attend {
+    float: left;
+    margin-left: 12px;
+}
+
+label.attend1 {
+    float: left;
+    margin-left: 12px;
+}
+
+label.attend2 {
+    float: left;
+    margin-left: 12px;
+}
+
+label.attend3 {
+    float: left;
+    margin-left: 12px;
+}
+
+label.attend4 {
+    float: left;
+    margin-left: 12px;
+}
+
+label.attend:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+label.attend1:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+label.attend2:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+label.attend3:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+label.attend4:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+
+label.control-label:hover {
+    cursor: default;
+    background: none;
+}
+
+/* End Asma's CSS for attendance*/
+
+
+/*Loader Css*/
+
+.loaderOuterDiv {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.loaderInnerDiv, .loaderInnerDivLoader {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.spinner {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    background-color: #039BE5;
+    border-radius: 100%;
+    animation: scaleout 1.0s infinite ease-in-out;
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    margin: 0 auto;
+}
+
+.loaderInnerDivLoader {
+    width: 400px;
+}
+
+
+.spinner-text {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+}
+
+
+@keyframes scaleout {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+
+
+
+/*End loader css*/
+
+
+
+
+
+/*Admission Start*/
+
+.studentInfoReportInnerTable tr td {
+    padding: 0px;
+}
+
+    .studentInfoReportInnerTable tr td input {
+        padding-top: 0px
+    }
+
+#CommentDiv {
+    padding: 5px 15px 0px 0px;
+    background-color: #f4f7fa;
+    overflow: hidden;
+    border-radius: 5px;
+    color: #4c4a4a;
+}
+
+/*Admission End*/
